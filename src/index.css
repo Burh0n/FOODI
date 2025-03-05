@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    box-shadow: -2px 22px 38px 0px #8eff9a80;
+  }
+  .card {
+    width: 326;
+    height: 326;
+    top: 1406px;
+    left: 155px;
+    border-radius: 40px;
+  }

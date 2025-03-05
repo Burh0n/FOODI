@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inder";
+}
+nav {
+  background-color: white;
+  color: whitesmoke;
+  width: 100%;
+  padding: 8px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #3d3d3d;
+  font-family: "Inder";
+}
+.logo h2 span {
+  background: #39db4a;
+  padding: 2px 12px;
+  border-radius: 10px;
+}
+.centre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centre ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+.centre ul li a {
+  color: #3d3d3d;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.global-text {
+  width: 596;
+  height: 180;
+  top: 330px;
+  left: 153px;
+}
+.global-text h1 {
+  font-weight: 800;
+  font-size: 42px;
+  width: 400px;
+}
+.global-text h1 span {
+  color: #39db4a;
+}
+.global-text h3 {
+  font-size: 23px;
+  width: 500px;
+  padding-top: 40px;
+  color: grey;
+  font-weight: 300;
+}
+.left2 {
+  padding: 18px 60px;
+}
+.left2 button {
+  margin-top: 30px;
+}
+.header {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.image img {
+  width: 400px;
+}
+.txt p {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #ff6868;
+}
+.con {
+  padding: 18px 40px;
+  padding-top: 90px;
+}
+.txt h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 92.61px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card {
+  width: 250px;
+  height: 250px;
+  background-color: #f8f8f8;
+  margin: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 2px 10px 30px 0px #00000094;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.txt{
+  padding-top: 40px;
+}
+.card-2{
+  width: 250px;
+  height: 350px;
+  background-color: #f8f8f8;
+  margin: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 2px 10px 30px 0px #00000094;
+}
+.card-2 img{
+  width: 200px;
+}
+.comment{
+  position: relative;
+}
+.comment img{
+  position: absolute;
+  top: 30px;
+  width: 50px;
+}
+.one{
+  left: 0px;
+}
+.two{
+  left: 25px;
+}
+.three{
+  left: 55px;
+}
+.four{
+  left: 115px;
+  width: 10px;
+}
+.comment p{
+  width: 170px;
+  position: absolute;
+  color: black;
+  font-weight: 300;
+  top: 55px;
+  right: 160px;
+}
+.comment span{
+  position: absolute;
+  color: grey;
+}
+.box{
+  padding: 8px 9px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+}
+.img--2 img{
+  width: 50%;
+}
+.img--2{
+  width: 100%;
+}
+.tex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tex h4{
+  font-size: 13px;
+}
+.right2{
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
