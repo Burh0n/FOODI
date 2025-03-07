@@ -19,7 +19,7 @@ const App = () => {
         <nav>
           <div className="logo">
             <h2>
-              <span>F</span>oodi
+              <span className="logo_f">F</span>oodi
             </h2>
           </div>
           <div className="centre">
@@ -41,6 +41,7 @@ const App = () => {
           <div className="right">
             <div className="src">
               <img src={img1} alt="" />
+              
             </div>
             <div className="button">
               <button>Contact</button>
@@ -60,9 +61,9 @@ const App = () => {
               <button>Order Now</button>
             </div>
           </div>
-          <div className="right2">
+          <div className="right4">
             <div className="image">
-              <img src={img2} alt="" />
+              <img className="girl" src={img2} alt="" />
             </div>
           </div>
         </div>
@@ -111,45 +112,43 @@ const App = () => {
               <p>Description of the item</p>
             </div>
           </div>
-          <div className="header">
-            <div className="left2">
+          <div className="header3">
+            <div className="left4">
               <img src={img5} alt="" />
             </div>
-            <div className="right2">
-              <div className="global-text">
+            <div className="right3">
+              <div className="global-text4">
                 <h1>What Our Customers Say About Us</h1>
-                <h3>
+                <h3 className="vv">
                   “I had the pleasure of dining at Foodi last night, and I'm
                   still raving about the experience! The attention to detail in
                   presentation and service was impeccable”
                 </h3>
+                <div className="comment">
+                  <img className="one" src={mask} alt="" />
+                  <img className="two" src={mask2} alt="" />
+                  <img className="three" src={mask3} alt="" />
+                  <img className="four" src={star} alt="" />
+                </div>
               </div>
-              <div className="comment">
-                <img className="one" src={mask} alt="" />
-                <img className="two" src={mask2} alt="" />
-                <img className="three" src={mask3} alt="" />
-                <img className="four" src={star} alt="" />
-                <p>
-                  4.9 <span>(18.6k Reviews)</span>
-                </p>
-              </div>
+              
             </div>
           </div>
         </div>
         <div className="header">
-          <div className="left2">
-            <div className="global-text">
+          <div className="left3">
+            <div className="global-text1">
               <h1>
                 Dive into Delights Of Delectable <span>Food</span>
               </h1>
               <h3>
-                Where Each Plate Weaves a Story of Culinary Mastery and
+                Where Each Plate Weaves a Story of Culinary Mastery and <br />
                 Passionate Craftsmanship
               </h3>
               <button>Order Now</button>
             </div>
           </div>
-          <div className="right2">
+          <div className="right3">
             <div className="box">
               <div className="img--2">
                 <img src={salad} alt="" />
@@ -189,7 +188,9 @@ const App = () => {
           </div>
         </div>
       </main>
-      <footer></footer>
+      <footer>
+        <h1>Owered by Burhon</h1>
+      </footer>
     </React.Fragment>
   );
 };
