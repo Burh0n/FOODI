@@ -45,7 +45,7 @@ const App = () => {
               
               
             </div>
-            <div className="csd">
+            {/* <div className="csd">
               <div className="cardLogo">
                 <div>
                   <img src={sola} alt="" />
@@ -66,7 +66,7 @@ const App = () => {
                   <h1 className="vc">18,99$</h1>
                 </div>
               </div>
-              </div>
+            </div> */}
             <div className="button">
               <button>Contact</button>
             </div>
