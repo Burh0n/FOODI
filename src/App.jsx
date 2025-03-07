@@ -11,6 +11,7 @@ import mask2 from "./assets/Mask group (4).png";
 import mask3 from "./assets/Mask group (5).png";
 import star from "./assets/fi-sr-star.png";
 import salad from "./assets/fi-rr-salad.png";
+import sola from "./assets/sola.svg"
 
 const App = () => {
   return (
@@ -40,9 +41,32 @@ const App = () => {
           </div>
           <div className="right">
             <div className="src">
-              <img src={img1} alt="" />
+              <img style={{marginRight:"50px"}} src={img1} alt="" />
+              
               
             </div>
+            <div className="csd">
+              <div className="cardLogo">
+                <div>
+                  <img src={sola} alt="" />
+                </div>
+                <div>
+                  <h1 className="x">Salad</h1>
+                  <img src="" alt="" />
+                  <h1 className="vc">18,99$</h1>
+                </div>
+              </div>
+              <div className="cardLogo1">
+                <div>
+                  <img src={sola} alt="" />
+                </div>
+                <div>
+                  <h1 className="x">Salad</h1>
+                  <img src="" alt="" />
+                  <h1 className="vc">18,99$</h1>
+                </div>
+              </div>
+              </div>
             <div className="button">
               <button>Contact</button>
             </div>

@@ -240,3 +240,33 @@ nav {
 .right3{
   margin-top: 50px;
 }
+.cardLogo{
+  width: 200px;
+  height: 97px;
+  position: absolute;
+  background-color: whitesmoke;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px black;
+  margin-top: 450px;
+}
+.cardLogo1{
+  width: 200px;
+  height: 97px;
+  position: absolute;
+  background-color: whitesmoke;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px black;
+  margin-top: 450px;
+}
+.x{
+  color: black;
+}
+.vc{
+  color: black;
+}
+.csd{
+  display: flex;
+  gap: 100px;
+}
